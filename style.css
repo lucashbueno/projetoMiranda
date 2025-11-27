@@ -137,7 +137,6 @@ footer p{
 a {
   text-decoration: none;
    color: #EDEBFF;
-  text-decoration: underline;
 }
 @media (max-width: 450px) {
   #container-img-texto {
@@ -192,3 +191,4 @@ a {
   }
 
 }
+
