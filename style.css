@@ -150,6 +150,7 @@ a {
   #container-img-texto img {
     width: 350px;
     height: 350px;
+    transition: none;
   }
 
   #img-redes-sociais {
@@ -160,6 +161,7 @@ a {
   #redes-sociais img {
     width: 50px;
     height: 50px;
+    transition: none;
   }
 
   #redes-sociais {
@@ -191,4 +193,5 @@ a {
   }
 
 }
+
 
