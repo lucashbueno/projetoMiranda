@@ -102,6 +102,7 @@ animation: zoomIn 1.5s ease-out forwards;
 }
 #container-img-texto p {
   font-size: 20px;
+  transition: none;
 }
 #redes-sociais img {
   width: 50px;
@@ -193,5 +194,6 @@ a {
   }
 
 }
+
 
 
