@@ -102,7 +102,6 @@ animation: zoomIn 1.5s ease-out forwards;
 }
 #container-img-texto p {
   font-size: 20px;
-  transition: none;
 }
 #redes-sociais img {
   width: 50px;
@@ -151,9 +150,11 @@ a {
   #container-img-texto img {
     width: 350px;
     height: 350px;
-    transition: none;
   }
-
+  #container-img-texto img:hover{
+    width: 350px;
+    height: 350px;
+}
   #img-redes-sociais {
     display: flex;
     flex-direction: column;
@@ -162,9 +163,12 @@ a {
   #redes-sociais img {
     width: 50px;
     height: 50px;
-    transition: none;
   }
 
+  #redes-sociais img:hover{
+    width: 50px;
+    height: 50px;
+}
   #redes-sociais {
     display: flex;
     justify-content: space-between;
@@ -184,7 +188,11 @@ a {
   }
   nav p{
     font-size: 19px;
+    transition: none;
   }
+  nav p:hover{
+    font-size: 19px;
+}
 
   #topBar {
     display: flex;
@@ -194,6 +202,3 @@ a {
   }
 
 }
-
-
-
